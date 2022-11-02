@@ -26,8 +26,8 @@
 
 
 .fa-link{
-  display: inline-block;
   color:rgba(54, 47, 45, 0.981);
+  text-decoration: none;
 }
 
 .background {
@@ -47,10 +47,12 @@
 .bte:hover{
   color: black;
 }
+
 body{
   font-family: oswald;
   letter-spacing: 1px;
 }
+
 #photo_de_moi{
   width: 150px;
   border-radius: 5px;
@@ -65,6 +67,7 @@ div{
   width: 400px;
   text-align: center;
 }
+
 #div_trop_haute{
   height: 550px;
   top: 10px;
