@@ -1,0 +1,117 @@
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+.fa-link{
+  display: inline-block;
+  color:rgba(54, 47, 45, 0.981);
+}
+
+.background {
+  color:rgba(0, 0, 0, 0.23);
+}
+
+#wagon{
+  color:rgba(0, 0, 0, 0.851);
+  text-decoration: none;
+  border: 1px;
+}
+
+#wagon:hover{
+  color: white;
+}
+
+.bte:hover{
+  color: black;
+}
+body{
+  font-family: oswald;
+  letter-spacing: 1px;
+}
+#photo_de_moi{
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+
+div{
+  background-color: rgba(246, 244, 243, 0.3);
+  margin: 60px auto;
+  border-radius: 7px;
+  padding: 30px ;
+  width: 400px;
+  text-align: center;
+}
+#div_trop_haute{
+  height: 550px;
+  top: 10px;
+}
+
+#list_passion {
+  list-style: none;
+  padding-left: 0;
+  font-size: 20px;
+}
+
+.bte {
+  font-size: 50px;
+}
+
+#text_defialnt {
+  width: auto;
+  background-color: transparent;
+  padding: 0px 0px;
+
+}
+
+  /* AUTO SCROLL */
+  .marquee {
+    position: relative;
+    overflow: hidden;
+    max-width: 100vw;
+    height: 100%;
+  }
+
+
+  .marquee__inner-{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+    animation: marquee  linear infinite;
+    height: 100%;
+  }
+
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-25%);
+    }
+  }
